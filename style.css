@@ -1,0 +1,16 @@
+body{
+    background-image: url(assets/caravancity-01562-edited2.jpg);
+}
+
+.text-page-4 {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 80%;
+    color:black ;
+    text-align: center;
+    font-family: TradeGothicLTStd,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    padding: 400px 0;
+}
