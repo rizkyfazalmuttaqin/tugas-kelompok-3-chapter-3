@@ -1,0 +1,45 @@
+html,
+body {
+    height: 100%;
+    margin: 0;
+}
+
+.navbar-brand {
+    color:white;
+    font-weight: bolder;
+    margin-left: -40px
+
+}
+
+.nav-link {
+    color:white;
+    margin: left;
+    letter-spacing: normal;
+    font-family: monospace;
+    font-size: large;
+    font-weight: bolder;
+}
+
+.nav-item {
+    margin: left;
+    margin-left: 20px;
+}
+
+#image {
+    background-image: url(assets/photo-1561336635-c0e118ad72a0.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 118vh;
+    margin-top: -100px;
+}
+
+.jumbotron {
+    text-align: center;
+    padding-top: 420px;
+}
+
+.tombol {
+    font-weight: bolder;
+    color: white;
+    margin-top: 30px
+}
