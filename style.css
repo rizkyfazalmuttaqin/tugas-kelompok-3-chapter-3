@@ -15,6 +15,47 @@ body{
     padding: 400px 0;
 }
 
+/* Page 3 - Grotius */
+   @media (max-width: 576px) {
+       .slider-img {
+           width: 100vw;
+           height: 50vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 577px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 992px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 1200px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 1400px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   #page-3 {
+       width: 100vw;
+       height: 100vh;
+   }
+
 /* Page 5 - Rizky Fazal */
 
 .container {
