@@ -1,0 +1,40 @@
+* {
+    background-color: whitesmoke;
+}
+ 
+img {
+    visibility: visible;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+ 
+article {
+    background-color:whitesmoke;
+    position: relative;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+ 
+h1 {
+    font-size: 2rem;
+    font-family: 'Mukta', sans-serif;
+    color: black;
+    margin-top: 13rem;
+    margin-bottom: 2.5rem;
+ 
+}
+ 
+p {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    visibility: visible;
+ 
+}
