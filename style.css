@@ -1,5 +1,9 @@
+/* Page 4 - Fauzan */
 body{
     background-image: url(assets/caravancity-01562-edited2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
 }
 
 .text-page-4 {
@@ -12,7 +16,41 @@ body{
     font-family: TradeGothicLTStd,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-style: normal;
     font-weight: bold;
-    padding: 400px 0;
+    padding: 200px 0;
+    
+    /* letter-spacing: 5px; */
+    line-height: 1.5;
+}
+
+@media (min-width: 320px) and (max-width: 392px) {
+    body {
+        background-image: url(assets/media-query-320px.PNG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        /* object-fit: cover; */
+        padding: 0%;
+    }
+    .text-page-4{
+        font-size: 1.25rem;
+        margin: 0 auto;
+        text-transform: uppercase;
+        width: 80%;
+        color:black ;
+        /* text-align: center; */
+        font-family: TradeGothicLTStd,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 392px) {
+    .text-page-4 {
+        color: white;
+
+    }
 }
 
 /* Page 3 - Grotius */
