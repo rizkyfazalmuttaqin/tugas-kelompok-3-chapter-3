@@ -1,0 +1,111 @@
+@media (max-width: 576px) {
+    .slider-img {
+        width: 100%;
+        height: 50vh;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 577px) {
+    .slider-img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 992px) {
+    .slider-img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1200px) {
+    .slider-img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+@media (min-width: 1400px) {
+    .slider-img {
+        width: 100%;
+        height: 70vh;
+        object-fit: cover;
+    }
+}
+
+#page-3 {
+    width: 100%;
+    margin-top: 3em;
+}
+
+#page-1 {
+    background-image: url('assets/photo-1561336635-c0e118ad72a0.jpg');
+    background-size: cover;
+    height: 100vh;
+    margin-top: 3em;
+}
+
+#page-2 {
+    height: 100vh;
+    margin-top: 3em;
+}
+
+#page-4 {
+    background-image: url(assets/caravancity-01562-edited2.jpg);
+    height: 60vh;
+    margin-top: 3em;
+}
+
+#page-5 {
+    height: 100vh;
+    margin-top: 3em;
+}
+
+.img-page-2 {
+    width: 100%;
+}
+
+
+.text-page-4 {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    color: black;
+    text-align: center;
+    font-family: TradeGothicLTStd, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    padding-top: 100px;
+
+    
+    line-height: 1.5;
+}
+
+.col-md-4 h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.col iframe {
+    margin-top: -20px;
+}
+
+
+
+article {
+    background-color: whitesmoke;
+    text-align: center;
+    height: 100vh;
+    padding-top: 10em
+}

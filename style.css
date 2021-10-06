@@ -1,0 +1,164 @@
+/* Page-2- Fahlefi */
+* {
+    background-color: whitesmoke;
+}
+ 
+img {
+    visibility: visible;
+    position: relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+ 
+}
+ 
+article {
+    background-color:whitesmoke;
+    position: relative;
+    right: 0;
+    top: 0;
+    text-align: center;
+    width: 100%;
+}
+ 
+h1 {
+    font-size: 2rem;
+    font-family: 'Mukta', sans-serif;
+    color: black;
+    margin-top: 13rem;
+    margin-bottom: 2.5rem;
+ 
+}
+ 
+p {
+    font-family: 'Inconsolata', monospace;
+    color: black;
+    font-weight: 1000;
+    margin-bottom: 1rem;
+    visibility: visible;
+ 
+} 
+
+
+/*Akhir-Page-2  */
+
+
+
+
+
+/* Page 4 - Fauzan */
+body{
+    background-image: url(assets/caravancity-01562-edited2.jpg);
+    background-size: cover;
+    height: 100vh;
+    background-repeat: no-repeat;
+}
+
+.text-page-4 {
+    font-size: 1.25rem;
+    margin: 0 auto;
+    text-transform: uppercase;
+    width: 80%;
+    color:black ;
+    text-align: center;
+    font-family: TradeGothicLTStd,"Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-style: normal;
+    font-weight: bold;
+    padding: 200px 0;
+    
+    /* letter-spacing: 5px; */
+    line-height: 1.5;
+}
+
+@media (min-width: 320px) and (max-width: 392px) {
+    body {
+        background-image: url(assets/media-query-320px.PNG);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        height: 100%;
+        /* object-fit: cover; */
+        padding: 0%;
+    }
+    .text-page-4{
+        font-size: 1.25rem;
+        margin: 0 auto;
+        text-transform: uppercase;
+        width: 80%;
+        color:black ;
+        /* text-align: center; */
+        font-family: TradeGothicLTStd,"Helvetica Neue",Helvetica,Arial,sans-serif;
+        font-style: normal;
+        font-weight: bold;
+        padding: 0%;
+    }
+}
+
+@media (min-width: 375px) and (max-width: 392px) {
+    .text-page-4 {
+        color: white;
+
+    }
+}
+
+/* Page 3 - Grotius */
+   @media (max-width: 576px) {
+       .slider-img {
+           width: 100vw;
+           height: 50vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 577px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 992px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 1200px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   @media (min-width: 1400px) {
+       .slider-img {
+           width: 100vw;
+           height: 80vh;
+           object-fit: cover;
+       }
+   }
+   #page-3 {
+       width: 100vw;
+       height: 100vh;
+   }
+
+/* Page 5 - Rizky Fazal */
+
+.container {
+    padding: 100px;
+}
+
+.col-md-4 h3 {
+    font-size: 1.5rem;
+    text-transform: uppercase;
+    border-top: black 5px solid;
+    border-bottom: black 5px solid;
+    margin-right: 80px;
+    margin-bottom: 50px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.col iframe {
+    margin-top: -20px;
+}
